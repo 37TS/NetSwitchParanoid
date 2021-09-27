@@ -5,7 +5,7 @@ COPYRIGHT © 2021 Omicron Software di A.P. (ITALY), All Eligible Rights Reserved
 
 THE IDEA
 
-Hackers/viruses/malware/bots often rely on a constant/permanent connection to forge malicious packets, to perform TCP/UDP scans of open ports, to manage a victim's machine remotely. This script mitigates some attacks by making system's penetration harder, painfully annoying and irritating.
+Hackers/viruses/malware/bots often rely on a constant/permanent connection to forge malicious packets, to perform TCP/UDP scans of opened ports, to manage a victim's machine remotely. This script mitigates some attacks by making system's penetration harder, painfully annoying and irritating.
 With a dynamic ip-address and a randomized mac-address (when possible), resetting the connections at a reasonably short interval is a simple yet effective method against most attacks. Streaming services are unipterruted and user's experience isn't affected at all while hackers' experience gets dented hard...
 Nowadays attacks revolve around frustration. This scripts "fights fire with fire", frustrating the "frustrators", if you know what I mean...
 
