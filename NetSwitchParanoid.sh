@@ -77,6 +77,6 @@ sleep 137
 #sleep 137
 echo " "
 echo " ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"
-echo " ▒INVOKING SCRIPT AGAIN FOR AN ENDLESS LOOP...▒"
+echo " ▒INVOKING LOOP FOR INDEFINITE ITERATIONS...  ▒"
 echo " ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"
 done
