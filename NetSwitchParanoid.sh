@@ -38,6 +38,8 @@ netswitchparanoid () {
 #	nmcli device disconnect NAME_OF_INTERFACE_N 2> /dev/null
 #}
 
+while :
+do
 echo " ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░"
 echo " ░▒█▄░▒█░█▀▀░▀█▀░▒█▀▀▀█░█░░░█░░▀░░▀█▀░█▀▄░█░░░░"
 echo " ░▒█▒█▒█░█▀▀░░█░░░▀▀▀▄▄░▀▄█▄▀░░█▀░░█░░█░░░█▀▀█░"
@@ -77,4 +79,4 @@ echo " "
 echo " ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"
 echo " ▒INVOKING SCRIPT AGAIN FOR AN ENDLESS LOOP...▒"
 echo " ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"
-sh '/path/to/THIS/script/NetSwitchParanoid.sh'
+done
