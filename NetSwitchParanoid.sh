@@ -8,26 +8,30 @@
 
 interface1 () {
 	nmcli device disconnect NAME_OF_INTERFACE_1 2> /dev/null
-	sleep 1.37
-	nmcli device connect NAME_OF_INTERFACE_1 
+	sleep 7.37
+	nmcli device connect NAME_OF_INTERFACE_1
+	sleep 7.37
 }
 
 interface2 () {
 	nmcli device disconnect NAME_OF_INTERFACE_2 2> /dev/null
-	sleep 1.37
+	sleep 7.37
 	nmcli device connect NAME_OF_INTERFACE_2
+	sleep 7.37
 }
 
 #interfaceN () {
 #	nmcli device disconnect NAME_OF_INTERFACE_N 2> /dev/null
-#	sleep 1.37
+#	sleep 7.37
 #	nmcli device connect NAME_OF_INTERFACE_N
+#	sleep 7.37
 #}
 
 netswitchparanoid () {
 	nmcli device disconnect NAME_OF_INTERFACE_1 2> /dev/null
-	sleep 0.37
+	sleep 1.37
 	nmcli device disconnect NAME_OF_INTERFACE_2 2> /dev/null
+	sleep 1.37
 }
 
 #netswitchparanoidN () {
@@ -77,6 +81,6 @@ sleep 137
 #sleep 137
 echo " "
 echo " ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"
-echo " ▒INVOKING LOOP FOR INDEFINITE ITERATIONS...  ▒"
+echo " ▒INVOKING SCRIPT AGAIN FOR AN ENDLESS LOOP...▒"
 echo " ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"
 done
